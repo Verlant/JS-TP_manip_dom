@@ -1,0 +1,104 @@
+:root {
+  --bgc: white;
+  --border_size: 1px;
+  --color: black;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+.container_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+#event_div {
+  width: 500px;
+  height: 300px;
+  border: var(--border_size) solid black;
+  overflow: hidden;
+  color: var(--color);
+}
+button {
+  margin: 5px;
+}
+.color_btn {
+  width: 100px;
+  height: 35px;
+}
+#red_btn {
+  background-color: rgb(255, 70, 70);
+  border: 2px solid darkred;
+  border-radius: 10px;
+}
+#red_btn:hover {
+  background-color: rgba(255, 70, 70, 0.7);
+}
+#green_btn {
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+}
+#green_btn:hover {
+  background-color: rgba(144, 238, 144, 0.7);
+}
+#blue_btn {
+  background-color: lightblue;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+}
+#blue_btn:hover {
+  background-color: rgba(173, 216, 230, 0.7);
+}
+#toggle_btn,
+#rainbow_btn {
+  width: 320px;
+  height: 35px;
+}
+#toggle_btn {
+  background-color: lightcyan;
+  border: 2px solid darkcyan;
+  border-radius: 10px;
+}
+#toggle_btn:hover {
+  background-color: rgba(224, 255, 255, 0.3);
+}
+#rainbow_btn {
+  background-color: rgb(255, 209, 125);
+  border: 2px solid orangered;
+  border-radius: 10px;
+}
+#rainbow_btn:hover {
+  background-color: rgba(255, 209, 125, 0.7);
+}
+label {
+  position: absolute;
+  left: 45px;
+  bottom: 45px;
+}
+#border_input {
+  width: 320px;
+  height: 35px;
+}
+#hello_btn,
+#text_input,
+#custom_btn {
+  width: 100px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 0;
+}
+#text_input {
+  width: 350px;
+}
+
+.JS_bgc {
+  background-color: var(--bgc);
+}
